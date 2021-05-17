@@ -1,0 +1,8 @@
+body {margin: 0;}
+
+	
+@font-face {font-family: light; src: url(font/OpenSans-Light.ttf);}
+@font-face {font-family: light italic; src: url(font/OpenSans-LightItalic.ttf);}
+@font-face {font-family: bold; src: url(font/OpenSans-Bold.ttf);}
+@font-face {font-family: bold italic; src: url(font/OpenSans-BoldItalic.ttf);}
+

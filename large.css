@@ -1,0 +1,236 @@
+body {margin: 0;}
+.header {
+	width:100%;
+	height:auto;
+	background-color:#808080;
+	word-break: normal;
+	margin: 0;
+	float: left;
+}
+.banner {
+	height:85%;
+	width:100%;
+	position:relative;
+	margin:0 0;
+	background-color:blue;
+	background-image: url('img/capa8.jpg');
+	background-attachment:fixed;
+	background-size:cover;
+	
+}
+.banner img{
+	max-width:100%;
+	margin-top:0%;
+}
+
+/*Conteúdo pós imagem home*/
+.text1{
+	background-color: #ffffff;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	word-break: normal;
+	text-align:center;
+	color:#999999;
+}
+.text1 p {
+	font-size:20px;
+	font-family:light;
+}
+.img{
+	width:60%;
+	height:80%;
+	background-color:blue;
+	float:left;
+}
+
+.img img{
+	width:100%;
+	height:100%;
+}
+.text2{
+	width: 35%;
+	height:auto;
+	float: right;
+	margin-left:0%;
+	word-break: normal;
+	text-align:left;
+	color:#2b2b2b;
+	
+}
+.text2 p {
+	font-size:20px;
+	font-family:light;
+}
+
+
+.text2 h1 {
+	padding-top:02%;
+	font-family:light;
+	
+}
+
+
+.btn{
+		border-style:solid;
+		border-color:black;
+		color:black;
+		background-color:white;
+		border-width:1px;
+		font-size:30px;
+		width:50%;
+		height:15%;
+		border-radius:5px;
+}
+
+/*Barra Top*/
+#barra{
+	width:100%;
+	display:table;
+	background:#808080;
+	margin-top:0px;
+}
+#barra img{
+	max-width:20%;
+	float:center;
+	margin:03px;
+	padding-left:4%;
+	background:#808080;
+}
+/*Redes Sociais Barra*/
+#redes{
+	max-width:10%;
+	float:right;
+	margin-right:0px;
+	height:50px;
+    width:200px;
+	padding-top:20px;
+
+}
+/*Botoes barra*/
+#menu{
+	background:#808080;
+	padding-top:25px;
+	padding-bottom:05px;
+	padding-left:0px;
+	width:50%;
+	float:right;
+	
+}	
+#menu a {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	text-align: left;
+	padding:30px;20px;
+	font-family:light;}
+	
+
+	
+#menu a:hover{
+	background:#B71C1C;
+}
+	
+#menu ul{
+	margin:0px auto;
+	display:table;
+	float:right;
+	left:0%;
+	width:900px;
+	}
+	
+#menu ul li {
+	display:inline;
+	list-style:none;
+	
+}
+
+
+/*Whats*/
+.pulse-button {
+	font-family:light;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 63px;
+    z-index: 1020;
+    height: 63px;
+    border: none;
+    box-shadow: 0 0 0 0 #46d87c73;
+    border-radius: 55%;
+    background-color: #d6444500;
+    cursor: pointer;
+    -webkit-animation: pulse 1.45s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.45s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.45s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.45s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+.pulse-button i:hover {
+    transform: scale(1.15);
+}
+
+.pulse-button i {
+    font-size: 50px;
+    line-height: 44px;
+    color: #4ee2b5;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 0 3px 4px #287b4700;
+    transition: .59s;
+    transform: scale(1);
+}
+
+.pulse-button::before {
+    content: attr(data-tool);
+    position: absolute;
+    left: 150%;
+    bottom: 25%;
+    padding: 8px 12px;
+    background: #e8eaefe0;
+    color: #727c92fa;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+    border-radius: 5px;
+    transition: all .2s ease;
+    transform: translate3d(-40%, 10px, 0) scale(.9);
+}
+
+.pulse-button:hover::before {
+    opacity: 1;
+    transform: translate3d(0%, 10px, 0) scale(1)
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    animation: none;
+}
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 32px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 32px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 32px rgba(232, 76, 61, 0);}}
+
+/*Footer*/
+
+.footer{
+	width:100%;
+	height:35%;
+	text-align: center;
+	background-color:#808080;
+	position:relative;
+	margin-top:51%;
+}
+
+.footer p{
+		font-family: light;
+		font-size:20px;
+		color:white;
+		margin-top:0px;
+		margin-bottom:0px;
+}
+
+.footer h2{
+		font-family: light;
+		color:white;
+}
